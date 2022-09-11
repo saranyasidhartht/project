@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Feedback</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/feedback.css">
+		<script src="./js/logout.js"></script>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50" style="background: url(https://images.squarespace-cdn.com/content/v1/5f36ec4385e2ff32f64943ba/1598300668027-FLWWJFR1D8PK5JCX1BQS/Interior_Background-03.png?format=1000w);background-repeat: no-repeat;background-size: cover;">
+		<div id="mobile-menu-overlay"></div>
+		<nav class="navbar navbar-expand-lg fixed-top" >
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<div class="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center">
+						<img src="images/logo-dark.svg" class="logo-mobile-menu" alt="logo">
+						<a href="javascript:;" class="close-menu"><i class="mdi mdi-close"></i></a>
+					</div>
+					<ul class="navbar-nav ml-auto align-items-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./academy.html">Academy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./feedback.html">Feedback</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./extra.html">Extra curricular activity</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./bmi.html">BMI Calculator</a>
+						</li>
+                    </li><li class="nav-item">
+                        <input type="button" onclick="logout()" value="logout" style="border: none;background: transparent;color: aliceblue;">
+                    </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+<body>
+
+    <section id="form-section">
+        <h1 class="h1-tag">Feedback</h1>
+        <form class="form-content-section">
+            <div class="form-group">
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" 
+id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">
+We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+</label>
+                <textarea class="form-control" 
+id="exampleFormControlTextarea1" placeholder="Enter your feedback" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary myclass">
+Post Feedback</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
